@@ -6,6 +6,7 @@ pipeline {
                 echo "HI"
                 sh "hostname"
                 sh "uptime"
+                sh "ls -l"
             }
         }
     }
