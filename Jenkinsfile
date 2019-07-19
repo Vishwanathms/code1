@@ -14,7 +14,6 @@ pipeline {
          stage('build1') {
              steps {
                  echo "this is 2nd stage"
-                 echo "checking trigerring"
              }    
          }
      }
