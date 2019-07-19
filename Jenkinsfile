@@ -10,10 +10,11 @@ pipeline {
                 sh "touch file1"
                 sh "ls -l"
             }
+         }
          stage('build1') {
              steps {
                  echo "this is 2nd stage"
              }    
-        }
-    }
+         }
+     }
 }
