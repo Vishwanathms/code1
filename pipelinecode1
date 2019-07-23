@@ -1,0 +1,9 @@
+node {
+    stage("SCM Checkout-DEv1"){
+        git 'https://github.com/Vishwanathms/Java-Proj1'
+    }
+    stage("Execute Java script"){
+        sh 'javac *.java'
+        sh 'java Simple'
+    }
+}
